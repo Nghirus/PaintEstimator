@@ -50,6 +50,10 @@
         android:id="@+id/heightTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/height" />
+        android:text="@string/height"
+        android:layout_below="@+id/widthTextView"
+        android:layout_alignLeft="@+id/widthTextView"
+        android:layout_alignStart="@+id/widthTextView"
+        android:layout_marginTop="20dp" />
 
 </RelativeLayout>
